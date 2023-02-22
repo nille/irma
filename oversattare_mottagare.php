@@ -11,7 +11,7 @@
 	
         // Inga konstigheter här
         $svenska = array ("hund", "vatten", "katt", "bröd", "kaffe", "pojke", "äpple", "lingon", "häst", "jacka");
-		$engelska = array("dog", "water", "cat", "bread", "coffee", "boy", "apple", "lingon-berry", "horse", "jacket");
+	$engelska = array("dog", "water", "cat", "bread", "coffee", "boy", "apple", "lingon-berry", "horse", "jacket");
         // Glöm inte att fylla i de här tre innan du lämnar in
         $spanska = array("", "", "", "", "", "", "", "", "", "");
         $tyska = array("", "", "", "", "", "", "", "", "", "");
