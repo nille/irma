@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Översättare Formulär
+    </title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <p><b>De ord som går att översätta är:</b><br>
+        hund, vatten, katt, bröd, kaffe, pojke, äpple, lingon, häst, jacka
+    </p>
+    <form action="oversattare_mottagare.php" method="get">
+        <label for="valtOrd">Skriv vilket ord du vill översätta:</label>
+        <!-- 
+            Jag la till required här så att det inte går att skicka formuläret utan
+            att mata in något.
+        -->
+        <input type="text" id="valtOrd" name="valtOrd" required><br><br>
+
+
+        <label><b>Välj ett språk:</b></label><br>
+        <!-- 
+            Jag gjorde engelska till default (checked) så det alltid sker ett språkval.
+            Då slipper ni hantera att fånga upp om användaren inte gör något val i koden
+            på php-grejen.
+        -->
+        <input type="radio" id="engelska" name="language" value="engelska" checked>
+        <label for="engelska">Engelska</label><br>
+        <input type="radio" id="arabiska" name="language" value="arabiska">
+        <label for="arabiska">Arabiska</label><br>
+        <input type="radio" id="tyska" name="language" value="tyska">
+        <label for="tyska">Tyska</label><br>
+        <input type="radio" id="franska" name="language" value="franska">
+        <label for="franska">Franska</label><br>
+        <input type="radio" id="spanska" name="language" value="spanska">
+        <label for="spanska">Spanska</label><br><br>
+
+
+        <input type="submit" value="Skicka">
+    </form>
+</body></html>
