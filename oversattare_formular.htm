@@ -15,7 +15,7 @@
     <form action="oversattare_mottagare.php" method="get">
         <label for="valtOrd">Skriv vilket ord du vill översätta:</label>
         <!-- 
-            Jag la till required här så att det inte går att skicka formuläret utan
+            Jag la till "required" här så att det inte går att skicka formuläret utan
             att mata in något.
         -->
         <input type="text" id="valtOrd" name="valtOrd" required><br><br>
@@ -23,7 +23,7 @@
 
         <label><b>Välj ett språk:</b></label><br>
         <!-- 
-            Jag gjorde engelska till default (checked) så det alltid sker ett språkval.
+            Jag gjorde engelska till default ("checked") så det alltid sker ett språkval.
             Då slipper ni hantera att fånga upp om användaren inte gör något val i koden
             på php-grejen.
         -->
